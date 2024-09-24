@@ -5,6 +5,10 @@ Project Overview
 ----------------
 
 This project contains a suite of automated tests for an e-commerce website using the Cypress testing framework. The goal is to ensure the website's critical functionalities, such as user authentication, product management, and checkout processes, work as expected and provide a seamless user experience.
+---------------------------------------
+
+Website : https://automationexercise.com/
+----------------------------------------
 
 Scenarios
 --------
@@ -26,7 +30,6 @@ This Test scenario will test the Proceed to Checkout with all necessary details 
 billing and delivery address are same and check complete the purchase
 This Test scenario will test the Download the Invoice, After completing the purchase, download the invoice. 
 
-
 6. Test6Spec
 This Test scenario will test the Scroll to Bottom of the Page on Automation Exercise Homepage
 This Test scenario will test the Scroll Up Without Using the 'Arrow' Button
@@ -37,6 +40,7 @@ This Test scenario will test the the page should not be reloaded or cause any la
 This Test scenario will test the Create New user Signup and then Verify Delete Account and click with 'Continue' button
 
 
+---------------------------------------
 
         
 
@@ -53,8 +57,7 @@ Tech Stack
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/leaviki90/AutomationExercise-Cypress.git
-              https://github.com/Anu-Pat/Test_Assignment.git
+    git clone https://github.com/Anu-Pat/Test_Assignment.git
     ```
 
 2. **Navigate to the project directory:**
@@ -100,9 +103,9 @@ The test cases are logically grouped as follows:
 
 *   **User Authentication**: Tests related to user Signup, login, logout, and handling existing users.
     
-*   **Product and Cart Management**: Verifying product viewing, searching, adding to cart, shopping cart, and managing product quantities.
+*   **Product and Cart Management**: Verifying product viewing, searching, adding to cart, shopping cart, and managing product      quantities.
     
-*   **Checkout Process**: Ensuring smooth checkout operations, including Delivery and Billing address verification, order placement, and invoice generation.
+*   **Checkout Process**: Ensuring smooth checkout operations, including Delivery and Billing address verification, order placement, and  invoice generation.
     
 *   **Other Functionalities**: Tests covering the Contact Us form, subscription validation, review addition, and scroll functionality.
 
