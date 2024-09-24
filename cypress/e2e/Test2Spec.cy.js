@@ -1,15 +1,12 @@
 
 
-describe("Automation Exercise Website - Create an Account or Log In-Incorrect Scenario", function(){
+describe("Automation Exercise Website - Create an Account or Log In - With Incorrect Credentials Scenario", function(){
 
-    it("My FirstTest Case", function(){
+    it('Login user with invalid credentials', function()  {
 
         cy.visit("https://automationexercise.com/");
 
-        // Ensure the user is on the login page
-           cy.url().should('include', '/login');
-
-        it('Login user with invalid credentials', function()  {
+      
             // Click on the 'Signup / Login' button
             cy.contains('Signup / Login').click();
         
@@ -27,6 +24,4 @@ describe("Automation Exercise Website - Create an Account or Log In-Incorrect Sc
             cy.contains('Your email or password is incorrect!').should('be.visible');
 
     })
-})
-
 })

@@ -1,8 +1,8 @@
 
 
-describe("Automation Exercise Website - Navigate to the Home Page", function(){
+describe("Automation Exercise Website - Navigate to the website Page", function(){
 
-    it("Automation Exercise Website - Login Test Case", function(){
+    it("Automation Exercise Website - Website URL Test Case", function(){
 
         cy.visit("https://automationexercise.com/");
 

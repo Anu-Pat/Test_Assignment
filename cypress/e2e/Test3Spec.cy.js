@@ -1,6 +1,6 @@
 
 
-describe('Automation Exercise Website - Create an Account or Log In-Correct Scenario', function() {
+describe('Automation Exercise Website - Create an Account or Log In - With Correct Credentials Scenario', function() {
 
     // Visit the website before each test
     beforeEach(function() {
